@@ -1,0 +1,25 @@
+//Arreglo de 100 numeros asignados al azar con math.random
+
+int a [] = new int[100];
+
+for(int x = 0; x < a.length; x++){
+	a[x] =(int)(Math.random() * 100);
+	System.out.println(a[x]);} 
+			
+//Arreglo de 100 numeros en Orden Ascedente.
+
+int a [] = new int[100];		
+
+for(int x = 0; x < a.length; x++){
+	System.out.println(x);}}
+	
+//Arreglo de 100 numeros en Orden Descedente.
+
+int a [] = new int[100];		
+
+for(int x = 99; x >= 0; x--){
+	System.out.println(x);}}
+	
+	
+
+	
