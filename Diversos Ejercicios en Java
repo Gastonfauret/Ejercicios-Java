@@ -36,7 +36,7 @@ for(int x = 0; x < a.length; x++){
 	
 int suma = 0;
 for(int y = 0; y < a.length; y++){
-	suma += y;}
+	suma += y / a.length;}
 	
 System.out.println("La suma Total de las variantes es " + suma);
 
@@ -49,6 +49,17 @@ for(int b = 0; b < 20; b++){
 	e = c + d;
 	c = d;
 	d = e;}
+	
+// Mostrar en consola todos los numeros pares
+
+int a [] = new int[101];
+				
+for(int x = 0; x < a.length; x++){
+	if(x % 2 ==0) {
+	System.out.println(x);}}
+	
+//
+
 
 	
 	
