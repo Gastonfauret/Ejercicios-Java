@@ -30,15 +30,18 @@ for(int x = 99; x >= 0; x--){
 // Sacar el Promedio de un Arreglo de 100 numeros.
 
 int a [] = new int[101];
-						
+		
 for(int x = 0; x < a.length; x++){
 	System.out.println(x);}
-	
+			
 int suma = 0;
+		
 for(int y = 0; y < a.length; y++){
-	suma += y / a.length;}
+	suma += y;}
 	
-System.out.println("La suma Total de las variantes es " + suma);
+int Promedio = suma / a.length;
+			
+System.out.println("La suma Total de las variantes es " + Promedio);
 
 // Mostrar en consola 20 numeros de la secuencia fibonacci.
 
@@ -58,7 +61,17 @@ for(int x = 0; x < a.length; x++){
 	if(x % 2 ==0) {
 	System.out.println(x);}}
 	
-//
+// Mostrar en consola el mensaje "Existe cien" en dado caso el arreglo almacene por los menos un cien.
+
+int arreglo[] = new int [101];
+int x = 0;
+		
+for(x = 0; x < arreglo.length; x++) {
+	if(x == 100) {
+		System.out.println("Existe Cien");}
+	System.out.println(x);}
+	
+
 
 
 	
