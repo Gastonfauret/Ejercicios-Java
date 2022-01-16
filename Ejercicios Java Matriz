@@ -1,0 +1,15 @@
+// Crear un matriz de 5 x 5
+
+int matriz[][] = new int [5][5];
+
+// Llenar la matriz con números aleatorios.
+
+for(int x = 0; x < matriz.length; x++){
+		for(int y = 0; y < matriz.length; y++){
+			int num = (int)(Math.random()* 25);
+			matriz[x][y] = num;
+			System.out.println(matriz[x][y]);} 
+		}
+    
+// Mostrar en consola el promedio de la matriz.
+
